@@ -7,9 +7,7 @@ class Dog
     save
   end
   
-  def save
-    @@all << self
-  end
+  d
   
   def self.all 
     @@all
@@ -21,5 +19,7 @@ class Dog
   
   def self.print_all
     puts @@all
-  end
+  enddef save
+    @@all << self
+  en
 end
